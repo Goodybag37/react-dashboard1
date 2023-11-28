@@ -84,6 +84,34 @@ function Home() {
             </div>
             <div className='card'>
                 <div className='card-inner'>
+                    <h3>Lodge</h3>
+                    <BsPeopleFill className='card_icon'/>
+                </div>
+                <h1>33</h1>
+            </div>
+            <div className='card'>
+                <div className='card-inner'>
+                    <h3>Gp</h3>
+                    <BsPeopleFill className='card_icon'/>
+                </div>
+                <h1>3.5</h1>
+            </div>
+            <div className='card'>
+                <div className='card-inner'>
+                    <h3>To do list</h3>
+                    <BsPeopleFill className='card_icon'/>
+                </div>
+                <h1>33</h1>
+            </div>
+            <div className='card'>
+                <div className='card-inner'>
+                    <h3>Services</h3>
+                    <BsPeopleFill className='card_icon'/>
+                </div>
+                <h1>33</h1>
+            </div>
+            <div className='card'>
+                <div className='card-inner'>
                     <h3>Alerts</h3>
                     <BsFillBellFill className='card_icon'/>
                 </div>

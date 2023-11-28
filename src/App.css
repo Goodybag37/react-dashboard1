@@ -153,6 +153,18 @@ body {
 .card:nth-child(4) {
   background-color: #d50000;
 }
+.card:nth-child(5) {
+  background-color: #83d500;
+}
+.card:nth-child(6) {
+  background-color: #06728d;
+}
+.card:nth-child(7) {
+  background-color: #1b095a;
+}
+.card:nth-child(8) {
+  background-color: #044c5e;
+}
 
 .card-inner {
   display: flex;
