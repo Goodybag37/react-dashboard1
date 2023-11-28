@@ -57,7 +57,7 @@ function Home() {
   return (
     <main className='main-container'>
         <div className='main-title'>
-            <h3>DASHBOARD</h3>
+            <h3>RECORDS</h3>
         </div>
 
         <div className='main-cards'>
@@ -84,7 +84,7 @@ function Home() {
             </div>
             <div className='card'>
                 <div className='card-inner'>
-                    <h3>Lodge</h3>
+                    <h3>Roommates</h3>
                     <BsPeopleFill className='card_icon'/>
                 </div>
                 <h1>33</h1>

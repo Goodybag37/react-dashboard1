@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import 
 {BsCart3, BsGrid1X2Fill, BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill, 
   BsListCheck, BsFillGearFill}
@@ -16,14 +17,18 @@ function Sidebar({openSidebarToggle, OpenSidebar}) {
 
         <ul className='sidebar-list'>
             <li className='sidebar-list-item'>
-                <a href="/roommates">
+                <Link to="/roommates">
+
                     <BsGrid1X2Fill className='icon'/> Roommates
-                </a>
+               
+                </Link>
             </li>
             <li className='sidebar-list-item'>
-                <a href="/events">
+                 <Link to="/events">
+
                     <BsFillArchiveFill className='icon'/> Events
-                </a>
+               
+                </Link>
             </li>
             <li className='sidebar-list-item'>
                 <a href="/lodges">
